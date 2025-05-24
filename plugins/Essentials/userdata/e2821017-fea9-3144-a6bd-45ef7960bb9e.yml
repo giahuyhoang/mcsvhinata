@@ -1,0 +1,95 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.37.36.109
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747569347584
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747569886599
+  login: 1747568993179
+money: '7212455.61000000000299'
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -368.972808520846
+  y: 131.7944558343914
+  z: 142.71994730327737
+  yaw: 77.99990844726562
+  pitch: 5.24997091293335
+last-account-name: reedyesyes
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -346.3342151868099
+  y: 63.0
+  z: 25.30000001192093
+  yaw: -94.88280487060547
+  pitch: 18.599990844726562
+homes:
+  locot:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -771.5936033827383
+    y: 63.0
+    z: -156.76164511033363
+    yaw: -82.19967651367188
+    pitch: 46.649986267089844
+  home:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -732.2789252197158
+    y: 55.0625
+    z: -130.12897480272548
+    yaw: -111.74962615966797
+    pitch: 33.89997482299805
+  ksenia:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -743.0213170633489
+    y: 20.0625
+    z: -127.94607942253056
+    yaw: 162.30038452148438
+    pitch: 29.699983596801758
+  meeting:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -750.0085829437331
+    y: 20.0
+    z: -114.46809283511271
+    yaw: 16.200469970703125
+    pitch: 30.299978256225586
+  kho:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -742.5231124301317
+    y: 20.0
+    z: -89.95568424126657
+    yaw: 2.400634765625
+    pitch: 15.149978637695312
+  bay:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -386.70974571698
+    y: 110.0
+    z: 144.73192440554368
+    yaw: 1.19952392578125
+    pitch: 8.85006332397461
+  huygay:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -362.7972433765857
+    y: 50.0
+    z: 25.438424109717957
+    yaw: 51.817195892333984
+    pitch: 65.8499984741211

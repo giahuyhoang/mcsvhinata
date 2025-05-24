@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.86.65.79
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747562623194
+  lastheal: 1747555012462
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747564960741
+  login: 1747564740609
+money: '6666218.90'
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -356.61211275570463
+  y: 117.0
+  z: -59.43204004352465
+  yaw: 65.4681396484375
+  pitch: 20.69999885559082
+last-account-name: HinataKagenou
+homes:
+  mainhouse:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -333.35979213667946
+    y: 64.0
+    z: 22.826677131407603
+    yaw: 89.74362182617188
+    pitch: 11.866073608398438
+  secondhouse:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -394.79216379780325
+    y: 110.0
+    z: -38.87564817771318
+    yaw: 169.19976806640625
+    pitch: 12.15005874633789
+  reedhouse:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -753.7762736039332
+    y: 64.0
+    z: -205.66478421110244
+    yaw: 3.6346435546875
+    pitch: 3.4500575065612793
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -358.37317084633315
+  y: 50.0
+  z: 30.554355518638303
+  yaw: 22.05175018310547
+  pitch: 10.199898719787598

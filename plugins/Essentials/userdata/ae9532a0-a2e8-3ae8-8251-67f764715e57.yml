@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.6.88.81
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747561035252
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747561049118
+  login: 1747554120540
+money: '1600385.12999999999899'
+last-account-name: davidgamingprp
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -313.5421467567672
+  y: 68.0
+  z: 155.6569521411286
+  yaw: -18.20648193359375
+  pitch: 10.500003814697266
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -489.5
+  y: 65.0
+  z: 194.5
+  yaw: -179.6999969482422
+  pitch: 0.4500000476837158
+homes:
+  home:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: -388.35914141848485
+    y: 65.0
+    z: 208.9504939520702
+    yaw: 163.79989624023438
+    pitch: 15.749839782714844

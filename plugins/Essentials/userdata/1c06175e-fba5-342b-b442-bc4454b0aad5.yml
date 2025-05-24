@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 104.28.222.74
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747488251350
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747489031499
+  login: 1747485631413
+money: '638925.61999999999957'
+last-account-name: TruongThiTam
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -828.1042364345378
+  y: 64.0
+  z: -174.98825627403227
+  yaw: -74.19479370117188
+  pitch: 4.967419147491455
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -105.87846596900194
+  y: 63.0
+  z: -115.2572832687751
+  yaw: 112.74078369140625
+  pitch: 33.7027473449707
+homes:
+  home:
+    world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+    world-name: world
+    x: 91.54631706437677
+    y: 70.0
+    z: -1449.9675920585814
+    yaw: -115.79345703125
+    pitch: 8.535632133483887

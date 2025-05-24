@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 14.229.75.59
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747120008239
+  login: 1747119978188
+money: '0'
+last-account-name: KingSayGex
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: 40.918779167519425
+  y: 128.0
+  z: -59.59856548374137
+  yaw: -13.246373176574707
+  pitch: 90.0

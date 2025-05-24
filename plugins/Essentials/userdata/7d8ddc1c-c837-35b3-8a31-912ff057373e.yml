@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.212.133.207
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747560980311
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747571814100
+  login: 1747571819046
+money: '1445398.2499999999999362'
+last-account-name: vkawaiki0
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -350.85422960327844
+  y: 72.32453559161063
+  z: 176.09645789249896
+  yaw: 130.04977416992188
+  pitch: 44.10004806518555
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -517.4434181420856
+  y: 71.66798673808013
+  z: 138.68887381464228
+  yaw: -169.644287109375
+  pitch: 7.35000467300415

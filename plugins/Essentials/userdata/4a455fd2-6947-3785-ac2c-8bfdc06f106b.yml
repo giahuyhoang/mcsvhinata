@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.82.88.136
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1747558163122
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747569923600
+  login: 1747569137046
+money: '4972809.91999999999455'
+last-account-name: Nem
+logoutlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -386.13190733685985
+  y: 149.1261718654674
+  z: 131.7474573669382
+  yaw: -18.8790283203125
+  pitch: 43.94988250732422
+lastlocation:
+  world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
+  world-name: world
+  x: -391.5
+  y: 110.0
+  z: 141.5
+  yaw: -116.5648422241211
+  pitch: 0.0
