@@ -2360,3 +2360,30 @@
 [05-18 11:52:29]: [FINE] Nem logged in 127.82.88.136
 [05-18 12:33:37]: [FINE] vkawaiki0 logged in 127.212.133.207
 [05-18 12:37:05]: [FINE] vkawaiki0 logged in 127.212.133.207
+[05-24 13:45:02]: [INFO] SQLite Setup finished
+[05-24 13:45:02]: [INFO] Hooked into LuckPerms!
+[05-24 13:45:02]: [INFO] Hooked successfully into Essentials
+[05-24 13:45:02]: [INFO] Essentials spawn file not found: '/workspaces/mcsvhinata/plugins/Essentials/spawn.yml'
+[05-24 13:45:02]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05-24 13:45:02]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[05-24 13:45:03]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[05-24 13:45:03]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[05-24 13:45:03]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[05-24 13:45:03]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[05-24 13:45:03]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0-legacy.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[05-24 13:46:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
