@@ -11,14 +11,14 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1748163981645
+  lastteleport: 1748171754173
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1748164271955
-  login: 1748162996184
-money: '3438099.54229499999463726'
+  login: 1748170442706
+money: '2850819.39446624249464396'
 last-account-name: Nem
 logoutlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
@@ -31,8 +31,8 @@ logoutlocation:
 lastlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
   world-name: world
-  x: -283.30623143507177
-  y: 61.01246489998575
-  z: 43.83661320848124
-  yaw: 106.78512573242188
-  pitch: 0.29999351501464844
+  x: -402.5013836817938
+  y: 53.0
+  z: 167.69999998807907
+  yaw: 125.9837646484375
+  pitch: 24.900001525878906
