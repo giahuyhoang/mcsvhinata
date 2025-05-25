@@ -1,0 +1,5 @@
+tax:
+  per-block: 10
+  percent: 0.15
+  interval: 1800
+  account: ServerBank

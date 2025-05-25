@@ -1,0 +1,10 @@
+data:
+  session: 3
+  dice1: 5
+  dice2: 6
+  dice3: 6
+  result: TAI
+  currency: VAULT
+  xiuPlayers:
+    Nem: 1000000
+    Geogre_XD: 1000000

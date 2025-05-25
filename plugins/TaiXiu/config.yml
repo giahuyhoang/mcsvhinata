@@ -50,7 +50,7 @@ task:
   taiXiuTask:
     # Thời gian đếm ngược lấy kết quả của mỗi phiên
     # Lấy theo giây(s)
-    time-per-session: 125
+    time-per-session: 60
 
 # Số tiền sẽ được hiển thị theo cách dễ nhìn hơn
 # Ví dụ: Bạn đặt '#,###' tại 'format-money', số tiền là 500000 -> Số tiền hiền thị: 500,000
@@ -77,7 +77,7 @@ bet-settings:
   # Số tiền tối đa có thể cược
   max-bet: 1000000
   # Số tiền tối thiểu có thể cược
-  min-bet: 500
+  min-bet: 10
   # Tính thêm thuế
   # Cách tính thuế:
   # 1. <thuế> = "bet-settings.tax" / 100

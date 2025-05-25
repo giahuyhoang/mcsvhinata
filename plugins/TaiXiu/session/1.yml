@@ -1,0 +1,9 @@
+data:
+  session: 1
+  dice1: 5
+  dice2: 3
+  dice3: 1
+  result: XIU
+  currency: VAULT
+  xiuPlayers:
+    Geogre_XD: 1000000

@@ -1,0 +1,9 @@
+data:
+  session: 0
+  dice1: 5
+  dice2: 5
+  dice3: 6
+  result: TAI
+  currency: VAULT
+  xiuPlayers:
+    HinataKagenou: 100000

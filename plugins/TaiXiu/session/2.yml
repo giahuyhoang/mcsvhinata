@@ -1,0 +1,10 @@
+data:
+  session: 2
+  dice1: 6
+  dice2: 3
+  dice3: 5
+  result: TAI
+  currency: VAULT
+  taiPlayers:
+    Nem: 1000000
+    HinataKagenou: 500000
