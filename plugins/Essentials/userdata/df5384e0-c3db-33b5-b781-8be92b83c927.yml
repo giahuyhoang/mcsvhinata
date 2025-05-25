@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1748148244052
-  login: 1748147786944
+  logout: 1748157204646
+  login: 1748157101156
 money: '6666469.2923000000000001'
 lastlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
@@ -56,8 +56,8 @@ homes:
 logoutlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
   world-name: world
-  x: -348.8055226836998
-  y: 64.0
-  z: 37.21512301993882
-  yaw: -124.15585327148438
-  pitch: 11.716083526611328
+  x: -247.16613377412432
+  y: 83.99040886576148
+  z: 52.14733381408314
+  yaw: 87.64414978027344
+  pitch: -13.650042533874512
