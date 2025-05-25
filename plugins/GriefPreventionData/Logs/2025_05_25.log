@@ -358,3 +358,171 @@
 11:16 Nem          : ?
 11:16 HinataKagenou: t update thuế lên phiên bản 3.2
 11:16 HinataKagenou: nãy h ngồi update tiếp
+11:17 HinataKagenou: ok
+11:17 HinataKagenou: dang nhap lai di
+11:17 HinataKagenou: h có thuế đất, thuế nông nghiệp và thuế thu nhập
+11:17 HinataKagenou: hợp lí phết
+11:18 HinataKagenou: h t sẽ viết plugin an sinh xã hội
+11:19 HinataKagenou: mới update lại gui
+11:19 HinataKagenou: ./tax
+11:19 HinataKagenou: voo xem thu ;v
+11:22 Nem          : e
+11:22 Nem          : cho t trung ga bo lon vs
+11:23 HinataKagenou: ;v
+11:23 HinataKagenou: ok
+11:23 Nem          : ddcmmmmm
+11:23 HinataKagenou: full kho đồ rồi
+11:23 HinataKagenou: đ give đc
+11:23 Nem          : phai xay lai
+11:23 HinataKagenou: :))
+11:25 HinataKagenou: m xây mấy cái gỗ gỗ á
+11:25 HinataKagenou: thì dùng /sm toggle
+11:25 HinataKagenou: để tắt chặt cây nhanh
+11:25 HinataKagenou: không đào một block bay luôn á
+11:25 HinataKagenou: ./sm toggle
+11:26 Nem          : e cho trung ga bo lon vs
+11:27 Nem          : tks
+11:28 HinataKagenou: h bt làm nghề j ta
+11:28 HinataKagenou: moe vừa nhác làm
+11:28 HinataKagenou: vừa thuế cao
+11:28 HinataKagenou: chết thật
+11:34 Nem          : e sao bat lai
+11:34 HinataKagenou: ?
+11:34 Nem          : baat lai
+11:35 HinataKagenou: ./sm toggle
+11:35 HinataKagenou: actualy the same
+11:35 HinataKagenou: ê nam
+11:35 Nem          : ko dc
+11:35 HinataKagenou: đc rồi
+11:35 HinataKagenou: thử đi
+11:36 HinataKagenou: cái đ j xổng hết đây rồi
+12:03 reedyesyes   : DM
+12:03 reedyesyes   : ba nam sv
+12:03 HinataKagenou: ua vo roi a
+12:03 reedyesyes   : lap ho t phat
+12:03 reedyesyes   : dm
+12:04 HinataKagenou: =))
+12:04 HinataKagenou: ms give hấn trứng quái:))
+12:04 reedyesyes   : giet ho t phat
+12:04 HinataKagenou: day roi
+12:05 reedyesyes   : dm
+12:05 reedyesyes   : ngu vl
+12:05 HinataKagenou: còn ở dưới...
+12:05 reedyesyes   : dm
+12:05 reedyesyes   : non lam
+12:05 reedyesyes   : untrust nam cho lanh
+12:05 HinataKagenou: ;v
+12:05 HinataKagenou: acs rk ;v
+12:06 reedyesyes   : dm
+12:06 reedyesyes   : may luc sau han cho
+12:06 reedyesyes   : a nham
+12:06 reedyesyes   : han lam farm piglin xong xong chuong
+12:06 reedyesyes   : kill het ca lu
+12:06 reedyesyes   : deo muon
+12:06 HinataKagenou: :)))))))))
+12:06 HinataKagenou: chắc hết rồi
+12:07 reedyesyes   : dmm
+12:07 reedyesyes   : cay that
+12:07 HinataKagenou: j
+12:07 reedyesyes   : DAY NX
+12:07 HinataKagenou: mo
+12:08 HinataKagenou: =)))
+12:08 reedyesyes   : xong r
+12:08 HinataKagenou: chà
+12:08 HinataKagenou: thg reed sướng hè
+12:08 reedyesyes   : j
+12:08 HinataKagenou: 73k tiền thuế
+12:08 HinataKagenou: do thằng cha mô đó xây ruộng
+12:08 HinataKagenou: + thuế nông nghiệp:))
+12:09 reedyesyes   : nong nghiep 0$
+12:09 HinataKagenou: bán mảnh ở đây cho thg Nem đê
+12:09 reedyesyes   : thu nhap la 72,124.56
+12:09 HinataKagenou: ủa v hả
+12:09 HinataKagenou: chắc plugin lỗi rồi
+12:09 HinataKagenou: kệ đi
+12:09 HinataKagenou: nhác đi sửa nữa
+12:09 HinataKagenou: để làm plugin an sinh xã hội
+12:09 HinataKagenou: kiểu giveaway...
+12:10 HinataKagenou: tránh lạm phát thì tiền giveaway cũng từ tài khoản ServerBank mà ra
+12:10 HinataKagenou: check baltop là biết
+12:10 HinataKagenou: t viết plugin để thu thuế vô tk nớ ;v
+12:11 HinataKagenou: e
+12:12 HinataKagenou: biết vì sao m kh bị thu thuế rồi
+12:12 HinataKagenou: t chỉ check farm block từ y=0 đến y=100 th
+12:12 HinataKagenou: trên 100 không check khỏi lag
+12:12 HinataKagenou: á à
+12:12 HinataKagenou: trốn thuế :))
+12:13 HinataKagenou: ./afk
+12:13 HinataKagenou: khong phai afkauto
+12:13 HinataKagenou: cam mom
+12:16 HinataKagenou: ye
+12:16 HinataKagenou: xong SocialWelfarePlugin-1.0-SNAPSHOT roi
+12:16 HinataKagenou: build từ file java sang jar rồi
+12:16 HinataKagenou: để reload server phát
+12:17 HinataKagenou: noo
+12:17 HinataKagenou: bug
+12:17 HinataKagenou: deo chay duoc
+12:17 HinataKagenou: nhác quá fix sau đi
+12:18 HinataKagenou: dcm
+12:18 HinataKagenou: để quay giveaway khi chiều nhá
+12:20 reedyesyes   : eh
+12:20 HinataKagenou: vl
+12:20 HinataKagenou: quay ảo vãi
+12:20 HinataKagenou: thg nào tham gia thằng đó win
+12:20 HinataKagenou: kiểu số gân...
+12:21 HinataKagenou: thu thuế phát
+12:22 HinataKagenou: reed có ý tưởng j mới kh
+12:22 HinataKagenou: sv dạo n chán quáaa
+12:31 reedyesyes   : cinematic camera
+12:32 reedyesyes   : .
+12:32 HinataKagenou: j?
+12:32 reedyesyes   : quyen so huu.
+12:32 reedyesyes   : wtf..
+12:32 HinataKagenou: so huu cai deo j?
+12:32 reedyesyes   : la j v
+12:32 reedyesyes   : so huu lo nung
+12:33 HinataKagenou: dùng bth mà?
+12:33 reedyesyes   : 1 sec
+12:33 HinataKagenou: 1 sex?
+12:33 HinataKagenou: 1 handjob?
+12:33 HinataKagenou: 1 footjob?
+12:33 HinataKagenou: 1 titsjoob?
+12:34 HinataKagenou: t còn không biết có tính năng n:)))
+12:34 HinataKagenou: địt con ngựa cho t
+12:37 HinataKagenou: noooooo
+12:37 HinataKagenou: nhà giam t đâu
+12:39 Nem          : reed trust t cai
+12:39 HinataKagenou: bán nhà n đi
+12:39 reedyesyes   : r do
+12:39 HinataKagenou: t mua
+12:40 Nem          : wachx?
+12:40 Nem          : chx trust
+12:40 Nem          : reed trust t cai
+12:41 Nem          : mat nha r huhuhu
+12:41 HinataKagenou: :))
+12:41 HinataKagenou: reed bán nhà đi Nem mua
+12:41 Nem          : trust la dc
+12:42 reedyesyes   : :v
+12:42 reedyesyes   : r do
+12:42 Nem          : ok
+12:42 Nem          : chx dc?
+12:42 HinataKagenou: bán nhà n đi t mua
+12:44 HinataKagenou: vl thg reed
+12:44 HinataKagenou: claim hổng nè
+12:44 HinataKagenou: đuôi tàu chx claim đc
+12:44 reedyesyes   : cho ba nam duoi tau
+12:44 reedyesyes   : :v
+12:44 Nem          : th ko can
+12:44 HinataKagenou: bá nem claim đuôi t nè
+12:44 Nem          : e dag
+12:44 HinataKagenou: khi nào hn untrust m còn có nhà:))
+12:44 reedyesyes   : j
+12:44 Nem          : chx trust
+12:44 reedyesyes   : cmd loi r
+12:45 HinataKagenou: để đi ỉa phát
+12:45 Nem          : sao tren tau no hien ko
+12:45 Nem          : ko dc nay
+12:45 Nem          : chx trust
+12:55 Nem       : đao
+12:55 HinataKagenou: dao
+12:55 HinataKagenou: ms đi ỉa xg
