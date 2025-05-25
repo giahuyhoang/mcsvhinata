@@ -283,26 +283,26 @@ Economy:
   # If this account don't have enough money to pay for players for, player will get message
   UseServerAccount: false
   # Username should be with Correct capitalization
-  AccountName: Server
+  AccountName: ServerBank
   Taxes:
     # Do you want to use taxes feature for jobs payment?
     # You can bypass taxes with permission jobs.tax.bypass
-    use: false
+    use: true
     # Username should be with Correct capitalization, it can be same as setup in server account before
-    AccountName: Server
+    AccountName: ServerBank
     # Amount in percentage. You can grant money and points permissions (jobs.tax.money.amount, jobs.tax.points.amount) for taxes.
-    Amount: 15.0
+    Amount: 50
     # Do you want to transfer taxes to server account?
     TransferToServerAccount: true
     # With this true, taxes will be taken from players payment and he will get less money than its shown in jobs info
     # When its false player will get full payment and server account will get taxes amount to hes account
-    TakeFromPlayersPayment: false
+    TakeFromPlayersPayment: true
   Limit:
     # Money gain limit
     # With this enabled, players will be limited how much they can make in defined time
     # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
     Money:
-      Use: false
+      Use: true
       # Do you want to stop money gain when exp limit reached?
       StopWithExp: false
       # Do you want to stop money gain when point limit reached?
@@ -311,7 +311,7 @@ Economy:
       # You can always use simple number to set money limit
       # Default equation is: 500+500*(totallevel/100), this will add 1% from 500 for each level player have
       # So player with 2 jobs with level 15 and 22 will have 685 limit
-      MoneyLimit: 500+500*(totallevel/100)
+      MoneyLimit: 2000
       # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
       TimeLimit: 3600
       # Time in 24 hour format when limit should reset. This will override TimeLimit if defined
@@ -335,14 +335,14 @@ Economy:
       # So player with 2 jobs with level 15 and 22 will have 685 limit
       Limit: 500+500*(totallevel/100)
       # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours
-      TimeLimit: 3600
+      TimeLimit: 780
       # Time in 24 hour format when limit should reset. This will override TimeLimit if defined
       # Example: '00:00:00' will reset timer at midnight, '04:30:00' will reset at 4:30 in the morning
       # Set to empty field if you want to use TimeLimit
       ResetTime: ''
       # Delay between announcements about reached limit
       # Keep this from 30 to 5 min (300), as players can get annoyed of constant message displaying
-      AnnouncementDelay: 30
+      AnnouncementDelay: 60
     # Exp gain limit
     # With this enabled, players will be limited how much they can get in defined time
     # Time in seconds: 60 = 1 min, 3600 = 1 hour, 86400 = 24 hours

@@ -1,247 +1,364 @@
-[03:19:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
-[03:19:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-80-main@841d634 (2025-05-17T14:18:02Z) for Minecraft 1.21.5
-[03:19:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:19:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
-[03:19:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (14):
- - AuthMe (5.6.0-bCUSTOM), CMILib (1.5.4.3), ClearLag (3.2.2), Essentials (2.21.0), GraveStonesPlus (1.8), GriefPrevention (16.18.4), Jobs (5.2.6.0), LevelledMobs (4.3.1.1 b114), LifeStealZ (2.13.0), LuckPerms (5.4.164), OnePlayerSleep (1.3), SmoothTimber (1.27.5), Vault (1.7.3-b131), WorldEdit (7.3.12-beta-01+2a9a7ed)
-[03:19:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:19:24] [ServerMain/INFO]: Loaded 1373 recipes
-[03:19:24] [ServerMain/INFO]: Loaded 1484 advancements
-[03:19:24] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[03:19:24] [Server thread/INFO]: Loading properties
-[03:19:24] [Server thread/INFO]: This server is running Paper version 1.21.5-80-main@841d634 (2025-05-17T14:18:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[03:19:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:19:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:19:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:19:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:19:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:19:25] [Server thread/INFO]: Default game type: SURVIVAL
-[03:19:25] [Server thread/INFO]: Generating keypair
-[03:19:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:19:25] [Server thread/INFO]: Using epoll channel type
-[03:19:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:19:25] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
-[03:19:26] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
-[03:19:26] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[03:19:36] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
-[03:19:36] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.164
-[03:19:36] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[03:19:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-01+2a9a7ed
-[03:19:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3f1682dd]
-[03:19:37] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
-[03:19:37] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.4.3
-[03:19:37] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
-[03:19:37] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.6.0
-[03:19:37] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8
-[03:19:37] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[03:19:37] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.1.1 b114
-[03:19:37] [Server thread/INFO]: [LevelledMobs] Loading commands
-[03:19:37] [Server thread/INFO]: [LifeStealZ] Loading server plugin LifeStealZ v2.13.0
-[03:19:37] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
-[03:19:37] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v1.3
-[03:19:37] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
-[03:19:37] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
-[03:19:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:19:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.164
-[03:19:37] [Server thread/INFO]:         __    
-[03:19:37] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.164
-[03:19:37] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:19:37] [Server thread/INFO]: 
-[03:19:37] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:19:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:19:38] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:19:38] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:19:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1594ms)
-[03:19:39] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[03:19:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[03:19:39] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[03:19:39] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[03:19:39] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[03:19:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-01+2a9a7ed
-[03:19:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:19:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[03:19:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_5.PaperweightAdapter as the Bukkit adapter
-[03:19:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:19:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:19:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:19:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:19:40] [Server thread/INFO]: Preparing level "world"
-[03:19:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:19:41] [Server thread/INFO]: Preparing spawn area: 0%
-[03:19:42] [Server thread/INFO]: Preparing spawn area: 51%
-[03:19:42] [Server thread/INFO]: Time elapsed: 723 ms
-[03:19:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:19:42] [Server thread/INFO]: Preparing spawn area: 0%
-[03:19:43] [Server thread/INFO]: Preparing spawn area: 91%
-[03:19:43] [Server thread/INFO]: Time elapsed: 960 ms
-[03:19:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:19:43] [Server thread/INFO]: Preparing spawn area: 0%
-[03:19:43] [Server thread/INFO]: Time elapsed: 162 ms
-[03:19:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
-[03:19:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[03:19:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[03:19:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[03:19:44] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[03:19:45] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[03:19:45] [Server thread/INFO]: [Essentials] Using locale en
-[03:19:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[03:19:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[03:19:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[03:19:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[03:19:45] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.4.3
-[03:19:46] [Server thread/INFO]: Server version: v1_21_R4 - 1.21.5 - paper  1.21.5-80-841d634 (MC: 1.21.5)
-[03:19:46] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:19:46] [Server thread/INFO]: Updated (EN) language file. Took 45ms
-[03:19:46] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
-[03:19:46] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[03:19:46] [Server thread/INFO]: [GriefPrevention] 12 total claims loaded.
-[03:19:47] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[03:19:47] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[03:19:47] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[03:19:47] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.6.0
-[03:19:47] [Server thread/INFO]: ------------- Jobs -------------
-[03:19:47] [Server thread/INFO]: Connected to database (SqLite)
-[03:19:47] [Server thread/INFO]: Loaded 8 titles
-[03:19:47] [Server thread/INFO]: Loaded 2 restricted areas!
-[03:19:47] [Server thread/INFO]: Loaded 53 protected blocks timers
-[03:19:48] [Server thread/INFO]: Loaded 1538 custom item names
-[03:19:48] [Server thread/INFO]: Loaded 84 custom entity names
-[03:19:48] [Server thread/INFO]: Loaded 2 custom MythicMobs names
-[03:19:48] [Server thread/INFO]: Loaded 42 custom enchant names
-[03:19:48] [Server thread/INFO]: Loaded 46 custom enchant names
-[03:19:48] [Server thread/INFO]: Loaded 16 custom color names
-[03:19:48] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
-[03:19:48] [Server thread/INFO]: Loaded 4 shop items
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for TạoVậtSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for TiềuSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for NôngSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for ThiếtKếSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for LuyệnKimSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for ThổSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for LữHànhSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for ThầnChúSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for KhoángSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for DượcSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for SátThủSư
-[03:19:48] [Server thread/INFO]: Loaded 1 quests for NgưSư
-[03:19:48] [Server thread/INFO]: Loaded 12 jobs
-[03:19:48] [Server thread/INFO]: Loaded 0 boosted items
-[03:19:48] [Server thread/INFO]: Loaded 80 furnace for reassigning.
-[03:19:48] [Server thread/INFO]: Loaded 8 brewing for reassigning.
-[03:19:48] [Server thread/INFO]: Loaded 3 blastfurnace for reassigning.
-[03:19:48] [Server thread/INFO]: Loaded 6 smoker for reassigning.
-[03:19:48] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
-[03:19:48] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
-[03:19:48] [Server thread/INFO]: Preloaded 2 players data in 0.01
-[03:19:48] [Server thread/INFO]: Registering listeners...
-[03:19:48] [Server thread/INFO]: Listeners registered successfully
-[03:19:48] [Server thread/INFO]: Plugin has been enabled successfully.
-[03:19:48] [Server thread/INFO]: ------------------------------------
-[03:19:48] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8
-[03:19:48] [Server thread/INFO]: [GraveStonesPlus] Loaded LuckPerms hook!
-[03:19:48] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
-[03:19:48] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[03:19:48] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[03:19:48] [Server thread/INFO]: [ClearLag] Loading modules...
-[03:19:48] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[03:19:48] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[03:19:48] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[03:19:48] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[03:19:48] [Thread-12/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[03:19:48] [Thread-12/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[03:19:48] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[03:19:48] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[03:19:48] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[03:19:48] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[03:19:48] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.1.1 b114
-[03:19:48] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[03:19:48] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[03:19:48] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
-[03:19:48] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.5 for nametag support
-[03:19:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[03:19:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[03:19:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[03:19:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[03:19:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[03:19:49] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[03:19:49] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[03:19:49] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[03:19:49] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[03:19:49] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[03:19:49] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 315ms)
-[03:19:49] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.13.0
-[03:19:49] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/vi-VN.yml
-[03:19:49] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
-[03:19:50] [Server thread/INFO]: [LifeStealZ] 
+[04:35:46] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Microsoft Microsoft-10800198) on Linux 6.8.0-1027-azure (amd64)
+[04:35:46] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-80-main@841d634 (2025-05-17T14:18:02Z) for Minecraft 1.21.5
+[04:35:46] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:35:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/TaxesLite-2.0.jar'...
+[04:35:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TaxesLite-2.0.jar' in 570ms.
+[04:35:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[04:35:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+ - AuthMe (5.6.0-bCUSTOM), CMILib (1.5.4.3), ClearLag (3.2.2), Essentials (2.21.0), GraveStonesPlus (1.8), GriefPrevention (16.18.4), Jobs (5.2.6.0), LevelledMobs (4.3.1.1 b114), LifeStealZ (2.13.0), LuckPerms (5.4.164), OnePlayerSleep (1.3), SmoothTimber (1.27.5), TaxesLite (2.0), Vault (1.7.3-b131), WorldEdit (7.3.12-beta-01+2a9a7ed)
+[04:35:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:35:54] [ServerMain/INFO]: Loaded 1373 recipes
+[04:35:54] [ServerMain/INFO]: Loaded 1484 advancements
+[04:35:54] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[04:35:54] [Server thread/INFO]: Loading properties
+[04:35:54] [Server thread/INFO]: This server is running Paper version 1.21.5-80-main@841d634 (2025-05-17T14:18:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[04:35:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:35:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:35:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:35:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:35:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:35:55] [Server thread/INFO]: Default game type: SURVIVAL
+[04:35:55] [Server thread/INFO]: Generating keypair
+[04:35:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:35:55] [Server thread/INFO]: Using epoll channel type
+[04:35:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:35:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[04:35:56] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library /workspaces/mcsvhinata/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[04:35:56] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[04:36:05] [Server thread/WARN]: Legacy plugin TaxesLite v2.0 does not specify an api-version.
+[04:36:06] [Server thread/WARN]: Legacy plugin OnePlayerSleep v1.3 does not specify an api-version.
+[04:36:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.164
+[04:36:06] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[04:36:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.12-beta-01+2a9a7ed
+[04:36:07] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@61fbdcf7]
+[04:36:07] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[04:36:07] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.4.3
+[04:36:07] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.4
+[04:36:07] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.6.0
+[04:36:07] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.8
+[04:36:07] [Server thread/INFO]: [TaxesLite] Loading server plugin TaxesLite v2.0
+[04:36:07] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[04:36:07] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.1.1 b114
+[04:36:07] [Server thread/INFO]: [LevelledMobs] Loading commands
+[04:36:07] [Server thread/INFO]: [LifeStealZ] Loading server plugin LifeStealZ v2.13.0
+[04:36:07] [Server thread/INFO]: [LifeStealZ] Loading LifeStealZ...
+[04:36:07] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v1.3
+[04:36:07] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[04:36:07] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[04:36:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:36:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.164
+[04:36:07] [Server thread/INFO]:         __    
+[04:36:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.164
+[04:36:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:36:07] [Server thread/INFO]: 
+[04:36:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:36:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:36:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:36:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:36:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1485ms)
+[04:36:08] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[04:36:08] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[04:36:08] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[04:36:08] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[04:36:08] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[04:36:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.12-beta-01+2a9a7ed
+[04:36:08] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:36:09] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[04:36:09] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_5.PaperweightAdapter as the Bukkit adapter
+[04:36:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:36:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:36:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:36:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:36:10] [Server thread/INFO]: Preparing level "world"
+[04:36:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:36:11] [Server thread/INFO]: Preparing spawn area: 0%
+[04:36:11] [Server thread/INFO]: Preparing spawn area: 10%
+[04:36:12] [Server thread/INFO]: Time elapsed: 799 ms
+[04:36:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:36:12] [Server thread/INFO]: Preparing spawn area: 0%
+[04:36:12] [Server thread/INFO]: Preparing spawn area: 77%
+[04:36:13] [Server thread/INFO]: Preparing spawn area: 79%
+[04:36:13] [Server thread/INFO]: Time elapsed: 1276 ms
+[04:36:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:36:13] [Server thread/INFO]: Preparing spawn area: 0%
+[04:36:13] [Server thread/INFO]: Time elapsed: 157 ms
+[04:36:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[04:36:14] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[04:36:14] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[04:36:14] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[04:36:14] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[04:36:14] [Server thread/INFO]: [Essentials] Using locale en
+[04:36:14] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[04:36:15] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[04:36:15] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[04:36:15] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[04:36:15] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.4.3
+[04:36:16] [Server thread/INFO]: Server version: v1_21_R4 - 1.21.5 - paper  1.21.5-80-841d634 (MC: 1.21.5)
+[04:36:16] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:36:16] [Server thread/INFO]: Updated (EN) language file. Took 69ms
+[04:36:16] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.4
+[04:36:16] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[04:36:16] [Server thread/INFO]: [GriefPrevention] 12 total claims loaded.
+[04:36:17] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[04:36:17] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[04:36:17] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[04:36:17] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.6.0
+[04:36:17] [Server thread/INFO]: ------------- Jobs -------------
+[04:36:17] [Server thread/INFO]: Connected to database (SqLite)
+[04:36:17] [Server thread/INFO]: Loaded 8 titles
+[04:36:17] [Server thread/INFO]: Loaded 2 restricted areas!
+[04:36:17] [Server thread/INFO]: Loaded 53 protected blocks timers
+[04:36:18] [Server thread/INFO]: Loaded 1538 custom item names
+[04:36:18] [Server thread/INFO]: Loaded 84 custom entity names
+[04:36:18] [Server thread/INFO]: Loaded 2 custom MythicMobs names
+[04:36:18] [Server thread/INFO]: Loaded 42 custom enchant names
+[04:36:18] [Server thread/INFO]: Loaded 46 custom enchant names
+[04:36:18] [Server thread/INFO]: Loaded 16 custom color names
+[04:36:18] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
+[04:36:18] [Server thread/INFO]: Loaded 4 shop items
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for TiềuSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for DượcSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for NôngSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for TạoVậtSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for LuyệnKimSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for ThầnChúSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for LữHànhSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for ThổSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for KhoángSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for SátThủSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for ThiếtKếSư
+[04:36:18] [Server thread/INFO]: Loaded 1 quests for NgưSư
+[04:36:18] [Server thread/INFO]: Loaded 12 jobs
+[04:36:18] [Server thread/INFO]: Loaded 0 boosted items
+[04:36:18] [Server thread/INFO]: Loaded 80 furnace for reassigning.
+[04:36:18] [Server thread/INFO]: Loaded 8 brewing for reassigning.
+[04:36:18] [Server thread/INFO]: Loaded 3 blastfurnace for reassigning.
+[04:36:18] [Server thread/INFO]: Loaded 6 smoker for reassigning.
+[04:36:18] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
+[04:36:18] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
+[04:36:18] [Server thread/INFO]: Preloaded 4 players data in 0.02
+[04:36:18] [Server thread/INFO]: Registering listeners...
+[04:36:18] [Server thread/INFO]: Listeners registered successfully
+[04:36:18] [Server thread/INFO]: Plugin has been enabled successfully.
+[04:36:18] [Server thread/INFO]: ------------------------------------
+[04:36:18] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.8
+[04:36:18] [Server thread/INFO]: [GraveStonesPlus] Loaded LuckPerms hook!
+[04:36:18] [Server thread/INFO]: [GraveStonesPlus] Enabled GraveStonesPlus!
+[04:36:18] [Server thread/INFO]: [TaxesLite] Enabling TaxesLite v2.0*
+[04:36:18] [Server thread/INFO]: [TaxesLite] Plugin Activated completed
+[04:36:18] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[04:36:18] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[04:36:18] [Server thread/INFO]: [ClearLag] Loading modules...
+[04:36:18] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[04:36:18] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[04:36:18] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[04:36:18] [Thread-12/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[04:36:18] [Thread-12/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[04:36:18] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[04:36:18] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[04:36:18] [Thread-12/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[04:36:18] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[04:36:18] [Thread-12/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:36:18] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.1.1 b114
+[04:36:18] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[04:36:18] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[04:36:18] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
+[04:36:18] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.5 for nametag support
+[04:36:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[04:36:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[04:36:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[04:36:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[04:36:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[04:36:19] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[04:36:19] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[04:36:19] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[04:36:19] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[04:36:19] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[04:36:19] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 250ms)
+[04:36:19] [Server thread/INFO]: [LifeStealZ] Enabling LifeStealZ v2.13.0
+[04:36:19] [Server thread/INFO]: [LifeStealZ] Using language file: plugins/LifeStealZ/lang/vi-VN.yml
+[04:36:19] [Server thread/INFO]: [LifeStealZ] Using SQLite storage
+[04:36:22] [Server thread/INFO]: [LifeStealZ] 
 ==========================================
 A new version of LifeStealZ is available!
 New Version: 2.13.0 -> 2.14.0
 Download here: https://modrinth.com/plugin/lifestealz/version/2.14.0
 ==========================================
-[03:19:50] [Server thread/INFO]: [LifeStealZ] LifeStealZ enabled!
-[03:19:50] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
-[03:19:50] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
-[03:19:50] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[03:19:50] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[03:19:50] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[03:19:50] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/mcsvhinata/plugins/Essentials/spawn.yml'
-[03:19:50] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[03:19:50] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
-[03:19:50] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
-[03:19:50] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21.5 (Core v1_21x)
-[03:19:50] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'JobsReborn' for plugin 'Jobs'...
-[03:19:50] [Server thread/INFO]: SmoothTimber || Trying to load config of compatibility addon 'JobsReborn' for plugin 'Jobs'...
-[03:19:50] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'JobsReborn' for plugin 'Jobs'...
-[03:19:50] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'GriefPrevention' for plugin 'GriefPrevention'...
-[03:19:50] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'GriefPrevention' for plugin 'GriefPrevention'...
-[03:19:50] [Server thread/INFO]: [spark] Starting background profiler...
-[03:19:51] [Server thread/INFO]: Done preparing level "world" (10.502s)
-[03:19:51] [Server thread/INFO]: Running delayed init tasks
-[03:19:51] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[03:19:51] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[03:19:51] [Craft Scheduler Thread - 10 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[03:19:51] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[03:19:51] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[03:19:51] [Craft Scheduler Thread - 10 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
-[03:19:51] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
-[03:19:51] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
-[03:19:51] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
-[03:19:51] [Craft Scheduler Thread - 0 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus is up to date! Version: 1.8
-[03:19:51] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
-[03:19:51] [User Authenticator #0/INFO]: UUID of player Nem is 4a455fd2-6947-3785-ac2c-8bfdc06f106b
-[03:19:51] [Server thread/INFO]: Done (35.584s)! For help, type "help"
-[03:19:51] [Server thread/INFO]: Nem (/127.5.204.112:50593) lost connection: Disconnected
-[03:19:52] [User Authenticator #0/INFO]: UUID of player Nem is 4a455fd2-6947-3785-ac2c-8bfdc06f106b
-[03:19:53] [Server thread/INFO]: Nem joined the game
-[03:19:53] [Server thread/INFO]: Nem[/127.5.204.112:59281] logged in with entity id 258 at ([world]-361.2882081815963, 64.0, 206.02198642211877)
-[03:19:57] [Server thread/INFO]: Nem issued server command: /login
-[03:20:05] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] Nem logged in 127.5.204.112
-[03:20:17] [Server thread/INFO]: Nem issued server command: /jobs browse
-[03:23:54] [Server thread/INFO]: Nem issued server command: /jobs browse
+[04:36:22] [Server thread/INFO]: [LifeStealZ] LifeStealZ enabled!
+[04:36:22] [Server thread/INFO]: [OnePlayerSleep] Enabling OnePlayerSleep v1.3*
+[04:36:22] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[04:36:22] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[04:36:22] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[04:36:22] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[04:36:22] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/mcsvhinata/plugins/Essentials/spawn.yml'
+[04:36:22] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04:36:23] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[04:36:23] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[04:36:23] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21.5 (Core v1_21x)
+[04:36:23] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'JobsReborn' for plugin 'Jobs'...
+[04:36:23] [Server thread/INFO]: SmoothTimber || Trying to load config of compatibility addon 'JobsReborn' for plugin 'Jobs'...
+[04:36:23] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'JobsReborn' for plugin 'Jobs'...
+[04:36:23] [Server thread/INFO]: SmoothTimber || Trying to enable compatibility addon 'GriefPrevention' for plugin 'GriefPrevention'...
+[04:36:23] [Server thread/INFO]: SmoothTimber || Successfully enabled compatbility addon 'GriefPrevention' for plugin 'GriefPrevention'...
+[04:36:23] [Server thread/INFO]: [spark] Starting background profiler...
+[04:36:23] [Server thread/INFO]: Done preparing level "world" (13.277s)
+[04:36:23] [Server thread/INFO]: Running delayed init tasks
+[04:36:23] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[04:36:23] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[04:36:23] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04:36:23] [Craft Scheduler Thread - 10 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04:36:23] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
+[04:36:23] [Craft Scheduler Thread - 10 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04:36:23] [Craft Scheduler Thread - 10 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[04:36:23] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
+[04:36:23] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
+[04:36:23] [User Authenticator #1/INFO]: UUID of player Nem is 4a455fd2-6947-3785-ac2c-8bfdc06f106b
+[04:36:23] [User Authenticator #0/INFO]: UUID of player HinataKagenou is df5384e0-c3db-33b5-b781-8be92b83c927
+[04:36:23] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
+[04:36:23] [Craft Scheduler Thread - 0 - GraveStonesPlus/INFO]: [GraveStonesPlus] GraveStonesPlus is up to date! Version: 1.8
+[04:36:23] [Server thread/INFO]: Done (38.265s)! For help, type "help"
+[04:36:25] [Server thread/INFO]: Nem joined the game
+[04:36:25] [Server thread/INFO]: Nem[/127.5.204.112:58449] logged in with entity id 18 at ([world]-349.16675128562775, 66.0, 128.11383157491977)
+[04:36:26] [Server thread/INFO]: HinataKagenou joined the game
+[04:36:26] [Server thread/INFO]: HinataKagenou[/127.45.163.227:42715] logged in with entity id 19 at ([world]-367.5689744731445, 50.0, 20.494839012872042)
+[04:36:31] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] The user HinataKagenou has 2 accounts:
+[04:36:31] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] §7§aHinataKagenou§7, serverbank.
+[04:36:31] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] HinataKagenou logged in 127.45.163.227
+[04:36:35] [Server thread/INFO]: HinataKagenou issued server command: /taxes
+[04:36:37] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] Nem logged in 127.5.204.112
+[04:36:37] [Server thread/INFO]: HinataKagenou issued server command: /taxeslite:automatic
+[04:37:18] [Async Chat Thread - #0/INFO]: [Not Secure] <HinataKagenou> lo
+[04:37:23] [Async Chat Thread - #0/INFO]: [Not Secure] <HinataKagenou> t thêm lại shop nhá
+[04:37:27] [Async Chat Thread - #0/INFO]: [Not Secure] <HinataKagenou> chưa thêm mô
+[04:37:31] [Async Chat Thread - #0/INFO]: [Not Secure] <HinataKagenou> nãy t bấm nhầm tắt th
+[04:37:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Nem> tuy
+[04:37:33] [Async Chat Thread - #0/INFO]: [Not Secure] <HinataKagenou> lv
+[04:37:39] [Server thread/INFO]: HinataKagenou experienced kinetic energy
+[04:37:41] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-336.0,y=67.0,z=23.0,pitch=0.0,yaw=0.0}
+[04:37:43] [Server thread/INFO]: HinataKagenou issued server command: /back
+[04:37:49] [Server thread/INFO]: Named entity ArmorStand['HinataKagenou died here!'/856, uuid='2ce065e6-805d-47ee-8289-8ed194c5623d', l='ServerLevel[world]', x=-335.50, y=68.50, z=23.50, cpos=[-21, 1], tl=161, v=true] died: HinataKagenou died here! died
+[04:37:49] [Server thread/INFO]: Named entity ArmorStand['Died at Sun May 25 04:37:41 UTC 2025'/857, uuid='d62bee9b-b5e3-42c5-af44-8f80ca46f8bb', l='ServerLevel[world]', x=-335.50, y=68.25, z=23.50, cpos=[-21, 1], tl=161, v=true] died: Died at Sun May 25 04:37:41 UTC 2025 died
+[04:37:49] [Server thread/INFO]: Named entity ArmorStand['Reason: HinataKagenou experienced kinetic energy'/858, uuid='01a4b226-a52f-4fa7-b057-85aeee2ef7d8', l='ServerLevel[world]', x=-335.50, y=68.00, z=23.50, cpos=[-21, 1], tl=161, v=true] died: Reason: HinataKagenou experienced kinetic energy died
+[04:40:09] [Server thread/INFO]: HinataKagenou issued server command: /tps
+[04:42:23] [Server thread/INFO]: [GriefPrevention] HinataKagenou placed a sign @ world: x-328, z25;Hinata's house
+[04:43:44] [Async Chat Thread - #2/INFO]: [Not Secure] <HinataKagenou> dcm plugin thu thuế như cặc
+[04:43:56] [Async Chat Thread - #2/INFO]: [Not Secure] <HinataKagenou> để t làm luôn plugin thu thuế của riêng t
+[04:44:02] [Async Chat Thread - #2/INFO]: [Not Secure] <HinataKagenou> let chatgpt do it
+[04:44:04] [Server thread/INFO]: HinataKagenou lost connection: Disconnected
+[04:44:04] [Server thread/INFO]: HinataKagenou left the game
+[05:01:56] [Server thread/INFO]: Nem was slain by Lvl 6 | Zombie
+[05:01:58] [Server thread/INFO]: [GraveStonesPlus] Grave: Location{world=CraftWorld{name=world},x=-843.0,y=64.0,z=164.0,pitch=0.0,yaw=0.0}
+[05:02:00] [Server thread/INFO]: Nem issued server command: /back
+[05:02:04] [Server thread/INFO]: Named entity ArmorStand['Nem died here!'/9304, uuid='c36ca442-a4f0-4dda-b722-de0cbd346382', l='ServerLevel[world]', x=-842.50, y=65.50, z=164.50, cpos=[-53, 10], tl=105, v=true] died: Nem died here! died
+[05:02:04] [Server thread/INFO]: Named entity ArmorStand['Died at Sun May 25 05:01:58 UTC 2025'/9305, uuid='e8ccfc63-76e4-4ae8-a8ed-1c727fe521b4', l='ServerLevel[world]', x=-842.50, y=65.25, z=164.50, cpos=[-53, 10], tl=105, v=true] died: Died at Sun May 25 05:01:58 UTC 2025 died
+[05:02:04] [Server thread/INFO]: Named entity ArmorStand['Reason: Nem was slain by Lvl 6 | Zombie'/9306, uuid='b44ffa00-c7f9-4fdf-b860-cd59bdf6e9ee', l='ServerLevel[world]', x=-842.50, y=65.00, z=164.50, cpos=[-53, 10], tl=105, v=true] died: Reason: Nem was slain by Lvl 6 | Zombie died
+[05:03:02] [Server thread/INFO]: Villager Villager['Farmer'/8740, uuid='aebfc55d-a4ba-4938-9323-29134aeb285e', l='ServerLevel[world]', x=-837.60, y=65.00, z=134.30, cpos=[-53, 8], tl=2531, v=true] died, message: 'Farmer was slain by Zombie'
+[05:05:15] [Server thread/INFO]: Nem issued server command: /home
+[05:06:53] [Server thread/INFO]: Nem issued server command: /shop
+[05:09:25] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast đã bảo chưa thêm shop còn /shop
+[05:09:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast dcm nam gay
+[05:09:49] [Async Chat Thread - #4/INFO]: [Not Secure] <Nem> :))
+[05:17:38] [Server thread/INFO]: Nem issued server command: /fly
+[05:18:02] [Server thread/INFO]: Nem lost connection: Disconnected
+[05:18:02] [Server thread/INFO]: Nem left the game
+[05:47:40] [Server thread/INFO]: Stopping the server
+[05:47:40] [Server thread/INFO]: Stopping server
+[05:47:40] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[05:47:40] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[05:47:40] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[05:47:40] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[05:47:40] [Server thread/INFO]: [OnePlayerSleep] Disabling OnePlayerSleep v1.3
+[05:47:40] [Server thread/INFO]: [LifeStealZ] Disabling LifeStealZ v2.13.0
+[05:47:40] [Server thread/INFO]: [LifeStealZ] Canceling all running tasks...
+[05:47:40] [Server thread/INFO]: [LifeStealZ] LifeStealZ disabled!
+[05:47:40] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.1.1 b114
+[05:47:40] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[05:47:40] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[05:47:40] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
+[05:47:40] [Craft Scheduler Thread - 7 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[05:47:40] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[05:47:40] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[05:47:40] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[05:47:40] [Server thread/INFO]: [TaxesLite] Disabling TaxesLite v2.0
+[05:47:40] [Server thread/INFO]: [SN] Plugin Desactivated completed
+[05:47:40] [Server thread/INFO]: [GraveStonesPlus] Disabling GraveStonesPlus v1.8
+[05:47:40] [Server thread/INFO]: [GraveStonesPlus] Allowing background tasks to finish, this could take up to 5 seconds
+[05:47:40] [Server thread/INFO]: [Jobs] Disabling Jobs v5.2.6.0
+[05:47:40] [Server thread/INFO]: ------------- Jobs -------------
+[05:47:40] [Jobs-BufferedPaymentThread/INFO]: Buffered payment thread shutdown.
+[05:47:40] [Server thread/INFO]: Cleared boss bar cache
+[05:47:40] [Jobs-DatabaseSaveTask/INFO]: Database save task shutdown!
+[05:47:40] [Server thread/INFO]: Saved player data
+[05:47:40] [Server thread/INFO]: Closed database connection
+[05:47:40] [Server thread/INFO]: ------------------------------------
+[05:47:40] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.4
+[05:47:40] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[05:47:40] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.4.3
+[05:47:40] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0
+[05:47:40] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[05:47:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.12-beta-01+2a9a7ed
+[05:47:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:47:40] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[05:47:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.164
+[05:47:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:47:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:47:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:47:40] [Server thread/INFO]: Saving players
+[05:47:41] [Server thread/INFO]: Saving worlds
+[05:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saved 177 block chunks, 500 entity chunks, 0 poi chunks in world 'world' in 0.33s
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[05:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[05:47:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[05:47:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[05:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:47:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:47:41] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[05:47:41] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[05:47:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:47:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
