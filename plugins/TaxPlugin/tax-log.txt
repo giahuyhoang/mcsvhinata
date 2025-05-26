@@ -1,0 +1,9 @@
+[2025-05-26T00:29:26.911537405] Collected tax 276,053.85 from davidgamingprp
+[2025-05-26T00:29:26.914790957] Collected tax 31,140.90 from ServerBank
+[2025-05-26T00:29:26.924561674] Collected tax 2,017,701.06 from reedyesyes
+[2025-05-26T00:29:26.932559619] Collected tax 0.00 from reedyseyes
+[2025-05-26T00:29:26.944924771] Collected tax 196,222.17 from Nem
+[2025-05-26T00:29:26.956303308] Collected tax 6,389.26 from TruongThiTam
+[2025-05-26T00:29:26.961061728] Collected tax 3,307,678.52 from HinataKagenou
+[2025-05-26T00:29:26.969896111] Collected tax 573,956.26 from Geogre_XD
+[2025-05-26T00:29:26.978263303] Collected tax 636,053.98 from vkawaiki0
