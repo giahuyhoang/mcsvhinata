@@ -1,12 +1,3 @@
-BlastFurnace:
-  e2821017-fea9-3144-a6bd-45ef7960bb9e: world:-744:59:-136;world:-744:58:-136;world:-744:55:-136;world:-744:57:-136;world:-744:56:-136
-  00000000-0000-0000-0009-01fe20fb315b: world:172:70:410;world:172:69:410;world:173:69:410
-Brewing:
-  e2821017-fea9-3144-a6bd-45ef7960bb9e: world:-745:56:-145
-  7db330eb-b61d-3c9b-b540-59eb05beaddc: world:318:66:222;world:-23103487:85:-22416266;world_the_end:6118:131:-858;world:318:67:222
-  a51e4ff5-3b22-3895-b164-a7b79009f4de: world:552:-37:-565
-  8db0c28e-a6ca-3d4a-96bd-9c2ad4fd33aa: world:367:-23:483;world:310:64:233
-  cf4ab792-b32b-363c-96a3-27f2d4a9b0c8: world:-1734:216:2284
 Furnace:
   09e0b63a-1aff-305c-b116-f91b159f4b28: world:897:56:108;world:896:56:108;world:919:65:107;world:896:55:108;world:919:64:107;world:897:55:108;world:898:56:108;world:908:60:98;world:898:55:108
   d5dfff1a-ab5b-323e-8ca9-ea803266a68c: world:401:-23:450;world:401:-23:449;world:401:-22:449;world:401:-23:448
@@ -33,3 +24,12 @@ Smoker:
   00000000-0000-0000-0009-01f8cee0b836: world:339:65:304
   13ba2f46-a0e1-3954-a9ad-ab23ff5e64d5: world:428:60:325
   cf4ab792-b32b-363c-96a3-27f2d4a9b0c8: world:398:65:363;world:398:66:364
+Brewing:
+  e2821017-fea9-3144-a6bd-45ef7960bb9e: world:-745:56:-145
+  7db330eb-b61d-3c9b-b540-59eb05beaddc: world:318:66:222;world:-23103487:85:-22416266;world_the_end:6118:131:-858;world:318:67:222
+  a51e4ff5-3b22-3895-b164-a7b79009f4de: world:552:-37:-565
+  8db0c28e-a6ca-3d4a-96bd-9c2ad4fd33aa: world:367:-23:483;world:310:64:233
+  cf4ab792-b32b-363c-96a3-27f2d4a9b0c8: world:-1734:216:2284
+BlastFurnace:
+  e2821017-fea9-3144-a6bd-45ef7960bb9e: world:-744:59:-136;world:-744:58:-136;world:-744:55:-136;world:-744:57:-136;world:-744:56:-136
+  00000000-0000-0000-0009-01fe20fb315b: world:172:70:410;world:172:69:410;world:173:69:410
