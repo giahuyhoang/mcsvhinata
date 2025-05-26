@@ -4,21 +4,21 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.45.163.227
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1748176859259
+  lastteleport: 1748187237597
   lastheal: 1747555012462
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1748178211713
+  logout: 1748187697634
   login: 1748184756187
-money: '5117936.6465970295500001'
+money: '5117851.6465970295500001'
 lastlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
   world-name: world
@@ -56,8 +56,8 @@ homes:
 logoutlocation:
   world: d0b20f41-223e-4b14-ae59-f1dc33dbf467
   world-name: world
-  x: -371.7032464636448
-  y: 124.0
-  z: 147.69999998807907
-  yaw: 11.1453857421875
-  pitch: 5.3999857902526855
+  x: -423.08944960984905
+  y: 111.0
+  z: 141.6377257201874
+  yaw: 105.34452819824219
+  pitch: 46.35004425048828

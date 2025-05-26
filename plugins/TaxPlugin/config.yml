@@ -1,6 +1,5 @@
 tax:
   per-block: 100.0
   percent-balance: 0.01
-  per-farm-block: 3
   interval: 3600
   bank-account: ServerBank

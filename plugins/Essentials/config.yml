@@ -845,11 +845,11 @@ currency-symbol-suffix: false
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
-max-money: 10000000
+max-money: 10000000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
-min-money: -10000
+min-money: 0
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
 economy-log-enabled: false
@@ -859,7 +859,7 @@ economy-log-enabled: false
 economy-log-update-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 1
 
 # Enable this to block users who try to /pay another user which ignore them.
 pay-excludes-ignore-list: false
